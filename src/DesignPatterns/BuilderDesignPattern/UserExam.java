@@ -1,4 +1,4 @@
-package BuilderFactory;
+package DesignPatterns.BuilderDesignPattern;
 
 import java.security.InvalidParameterException;
 
