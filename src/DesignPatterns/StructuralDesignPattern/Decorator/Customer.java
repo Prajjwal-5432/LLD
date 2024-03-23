@@ -1,5 +1,6 @@
 package DesignPatterns.StructuralDesignPattern.Decorator;
 
+
 public class Customer {
     public static void main(String[] args) {
         IceCreamCone iceCreamCone = new VanillaScoop(
@@ -10,15 +11,16 @@ public class Customer {
                                         )
                                     );
 
+
         System.out.println(iceCreamCone.getCost());
         System.out.println(iceCreamCone.getConstituents());
 
-        IceCreamCone chocoBar = new ChocolateScoop(new ChocolateScoop(new BlueCone()));
-        IceCreamCone kesarPista = new VanillaScoop(new BlueCone());
-
-        IceCreamCone chocoBarwithVanilla = new VanillaScoop(chocoBar);
-        System.out.println(chocoBarwithVanilla.getCost());
-        System.out.println(chocoBarwithVanilla.getConstituents());
+//        IceCreamCone chocoBar = new ChocolateScoop(new ChocolateScoop(new BlueCone()));
+//        IceCreamCone kesarPista = new VanillaScoop(new BlueCone());
+//
+//        IceCreamCone chocoBarwithVanilla = new VanillaScoop(chocoBar);
+//        System.out.println(chocoBarwithVanilla.getCost());
+//        System.out.println(chocoBarwithVanilla.getConstituents());
 
         //Pizza
         //Coffee Machine

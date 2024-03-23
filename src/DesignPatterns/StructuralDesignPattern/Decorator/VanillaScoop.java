@@ -2,6 +2,7 @@ package DesignPatterns.StructuralDesignPattern.Decorator;
 
 public class VanillaScoop implements IceCreamCone {
     private IceCreamCone iceCreamCone;
+
     public VanillaScoop(IceCreamCone iceCreamCone) {
         if(iceCreamCone == null) {
             throw new NullPointerException();

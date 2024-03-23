@@ -16,11 +16,11 @@ public class Client {
 //            userExam = userExamBuilder.build();
 
             userExam = UserExam.getUserExamBuilder()
-                                .setName("Prajjwal")
-                                .setEnglishMarks(90)
-                                .setScienceMarks(92)
-                                .setMathMarks(89)
-                                .build();
+                    .setName("Prajjwal")
+                    .setEnglishMarks(90)
+                    .setScienceMarks(92)
+                    .setMathMarks(89)
+                    .build();
 
         } catch (Exception exception) {
             System.out.println("Some parameters are wrong");
